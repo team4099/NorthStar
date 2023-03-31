@@ -15,13 +15,13 @@ class LocalConfig:
 
 @dataclass
 class RemoteConfig:
-    camera_id: int = -1
-    camera_resolution_width: int = 0
-    camera_resolution_height: int = 0
-    camera_auto_exposure: int = 0
-    camera_exposure: int = 0
-    camera_gain: int = 0
-    fiducial_size_m: float = 0
+    camera_id: int = 0
+    camera_resolution_width: int = 1600
+    camera_resolution_height: int = 1200
+    camera_auto_exposure: int = 1
+    camera_exposure: int = 10
+    camera_gain: int = 25
+    fiducial_size_m: float = 0.1524
 
 
 @dataclass
